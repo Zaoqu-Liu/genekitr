@@ -40,16 +40,10 @@ Package ‘genekitr’ was removed from the CRAN repository. Therefore, I copied
 > packageVersion('genekitr') 
 > ```
 
-#### Install stable version from CRAN:
-
-```R
-install.packages("genekitr")
-```
-
 #### Install development version from GitHub:
 
 ```R
-remotes::install_github("GangLiLab/genekitr")
+devtools::install_github('Zaoqu-Liu/genekitr')
 ```
 
 #### Install development version from Gitee (for CHN mainland users):
